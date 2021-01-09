@@ -13,6 +13,8 @@ class Views extends StatefulWidget {
 }
 
 class _ViewsState extends State<Views> {
+
+  //Metodo que abre a url no navegador
   _launchURL() async {
     if (await canLaunch(widget.url)) {
       await launch(widget.url);

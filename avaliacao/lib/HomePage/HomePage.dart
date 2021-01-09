@@ -15,8 +15,6 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
 
   ResponsiveText _responsiveText = ResponsiveText();
-  String img = 'https://www.melhoresdestinos.com.br/wp-content/uploads/2020/06/praias-brasil-sancho.jpg';
-
   var repositorios = List<Repositorios>();
   final _streamController = StreamController<List>();
 
